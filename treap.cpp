@@ -101,7 +101,7 @@ public:
             r->l=merge(l,r->l);
             t=r;
         }
-        update(r);
+        update(t);
         return t;
     }
     long long get_sum(int l,int r){
